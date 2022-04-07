@@ -1,0 +1,116 @@
+.container {
+    text-align: center;
+}
+
+
+.button-style {
+    align-items: center;
+    background-image: radial-gradient(100% 100% at 100% 0, #c7ecf6 0, #818ff8 100%);
+    border: 0;
+    border-radius: 2px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    color: #fff;
+    cursor: pointer;
+    height: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px;
+    width: 70px;
+    height: 70px;
+    float: left;
+    display: block;
+}
+
+
+h1 {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+        align-items: center;
+        background-color: rgba(105, 100, 100, 0.061);
+        color: rgba(0, 0, 0, 0.678);
+        border: 1px groove rgba(126, 192, 209, 0.116);
+        display: inline-flex;
+        fill: #000;
+        font-family: Inter,
+        sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        height: 60px;
+        justify-content: center;
+        outline: 0;
+        padding: 0 17px;
+        text-align: center;
+        border-radius: 5px;
+}
+
+.reset-float {
+    clear: both;
+}
+
+.reset {
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid rgba(238, 2, 2, 0.787);
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.966);
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.reset:focus {
+    color: #171e29;
+}
+
+.reset:hover {
+    border-color: rgba(202, 30, 0, 0.787);
+    color: rgb(187, 32, 5);
+    fill: rgb(124, 25, 0);
+}
+
+.reset:active {
+    border-color: rgb(0, 255, 42);
+    color: rgb(0, 124, 21);
+    fill: rgb(0, 77, 4);
+}
+
+@media (min-width: 768px) {
+    .button-59 {
+        min-width: 170px;
+    }
+}
+
+.game-main-container {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.game-fixer-float-container {
+    position: relative;
+    left: -50%;
+}
